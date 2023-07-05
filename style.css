@@ -95,6 +95,11 @@ body {
 }
 .wrapper .preview-img {
   margin-left: 20px;
+  flex-grow: 1;
+  display: hidden;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 .preview-img img {
   max-width: 490px;
